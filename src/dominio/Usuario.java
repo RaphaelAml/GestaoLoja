@@ -15,20 +15,20 @@ public class Usuario {
     private LocalDateTime ultimoLogin;
 
     public Usuario() {
-
-
+        this.estado = true;
     }
 
-    public Usuario(int id, String nome, String senha, String usuario, Perfil perfil, boolean estado,
+
+    public Usuario(int id, String nome, String senha, String usuario, Perfil perfil,
                    LocalDateTime dataHoraCriacao, LocalDateTime ultimoLogin) {
         this.id = id;
         this.nome = nome;
         this.senha = senha;
         this.usuario = usuario;
         this.perfil = perfil;
-        this.estado = estado;
         this.dataHoraCriacao = dataHoraCriacao;
         this.ultimoLogin = ultimoLogin;
+        this.estado = true;
     }
 
     public int getId() {
@@ -108,4 +108,13 @@ public class Usuario {
     public int hashCode() {
         return Objects.hash(id);
     }
+
+    public void reset() {
+        this.estado = true;
+    }
+
+    public void mudarEstado() {
+        this.estado = !this.estado;
+    }
+
 }
