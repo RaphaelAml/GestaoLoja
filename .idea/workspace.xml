@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa596e22-01b4-425e-9465-81dc4c6e2372" name="Changes" comment="Criação de Classe">
-      <change afterPath="$PROJECT_DIR$/src/dominio/Perfil.java" afterDir="false" />
+    <list default="true" id="fa596e22-01b4-425e-9465-81dc4c6e2372" name="Changes" comment="Atualizando a classe Usuario">
+      <change afterPath="$PROJECT_DIR$/src/dominio/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dominio/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dominio/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "19",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dominio" />
@@ -60,7 +59,10 @@
       <option name="presentableId" value="Default" />
       <updated>1689119333573</updated>
       <workItem from="1689119334027" duration="699000" />
-      <workItem from="1689200813680" duration="3559000" />
+      <workItem from="1689200813680" duration="4312000" />
+      <workItem from="1689376467653" duration="607000" />
+      <workItem from="1689455542267" duration="770000" />
+      <workItem from="1689505783369" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de Classe">
       <created>1689203146736</created>
@@ -69,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689203146736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualizando a classe Usuario">
+      <created>1689204658923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689204658923</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação de Classe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação de Classe" />
+    <MESSAGE value="Atualizando a classe Usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizando a classe Usuario" />
   </component>
 </project>
