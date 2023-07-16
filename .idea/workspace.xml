@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa596e22-01b4-425e-9465-81dc4c6e2372" name="Changes" comment="Criada classe Venda">
-      <change afterPath="$PROJECT_DIR$/src/dominio/VendaItem.java" afterDir="false" />
+    <list default="true" id="fa596e22-01b4-425e-9465-81dc4c6e2372" name="Changes" comment="Criada classe VendaItem">
+      <change afterPath="$PROJECT_DIR$/src/dao/conexao/Conexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/conexao/ConexaoMysql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +64,7 @@
       <workItem from="1689200813680" duration="4312000" />
       <workItem from="1689376467653" duration="607000" />
       <workItem from="1689455542267" duration="770000" />
-      <workItem from="1689505783369" duration="2422000" />
+      <workItem from="1689505783369" duration="4058000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de Classe">
       <created>1689203146736</created>
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689508043934</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Criada classe VendaItem">
+      <created>1689508262703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689508262703</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +145,7 @@
     <MESSAGE value="Criada classe Produto" />
     <MESSAGE value="Criada classe Cliente" />
     <MESSAGE value="Criada classe Venda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criada classe Venda" />
+    <MESSAGE value="Criada classe VendaItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criada classe VendaItem" />
   </component>
 </project>
