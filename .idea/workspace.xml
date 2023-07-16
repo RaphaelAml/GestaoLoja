@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa596e22-01b4-425e-9465-81dc4c6e2372" name="Changes" comment="Criada classe VendaItem">
-      <change afterPath="$PROJECT_DIR$/src/dao/conexao/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/conexao/ConexaoMysql.java" afterDir="false" />
+    <list default="true" id="fa596e22-01b4-425e-9465-81dc4c6e2372" name="Changes" comment="Criada classe Conexao">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestaoLoja.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GestaoLoja.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/conexao/ConexaoMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/conexao/ConexaoMysql.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +35,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "jdk.selected.JAVA_MODULE": "19",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dominio" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Testa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Testa" />
+      <module name="GestaoLoja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Testa" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +92,7 @@
       <workItem from="1689200813680" duration="4312000" />
       <workItem from="1689376467653" duration="607000" />
       <workItem from="1689455542267" duration="770000" />
-      <workItem from="1689505783369" duration="4058000" />
+      <workItem from="1689505783369" duration="8831000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de Classe">
       <created>1689203146736</created>
@@ -115,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689508262703</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Criada classe Conexao">
+      <created>1689509896724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689509896724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +181,7 @@
     <MESSAGE value="Criada classe Cliente" />
     <MESSAGE value="Criada classe Venda" />
     <MESSAGE value="Criada classe VendaItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criada classe VendaItem" />
+    <MESSAGE value="Criada classe Conexao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criada classe Conexao" />
   </component>
 </project>
